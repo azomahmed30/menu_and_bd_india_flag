@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/*menu part css start*/
+
+
+
+.menu ul li{
+   
+    list-style: none;
+    float:left;
+    padding:0px 10px;
+    background-color:rgb(0 0  0.5);
+   height:60px;
+    width:182PX;
+    text-align:center;
+    line-height:60px;
+
+    
+}
+
+a{
+    text-decoration:none;
+     color: #ffff;
+    text-transform: uppercase;
+    display:block;
+   
+}
+.menu{
+    float:right;
+    margin-bottom:100px
+     
+}
+.menu ul li:hover{
+    background-color:coral;
+}
+.menu ul li a:hover{
+    color: chartreuse;
+}
+.menu ul li.active{
+    background-color: darkred;
+}
+.menu ul li a:focus{
+    color:aqua;
+}
+.menu ul li ul li{
+    display: none;
+}
+.menu ul li:hover ul li{
+    display: block;
+}
+/*menu part css end*/
+
+/*bangladesh flag start*/
+.bd{
+
+}
+.box_main{
+    width:800px;
+    height:480px;
+    background-color:green;
+     
+    margin: auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+   
+}
+.box{
+    width:300px;
+    height:300px;
+    background-color:red;
+    border-radius:50%;
+     display:flex;
+    justify-content:center;
+    align-items:center;
+ 
+}
+.box img{
+    width:200px;
+    height:220px;
+}
+.box img:hover{
+    transform:rotate(180deg);
+    transition:all linear 3s;
+    
+}
+/*bangladesh flag end*/
+
+/*india flag star*/
+.india{
+      width:800px;
+    height:480px;
+    background-color:green;
+     margin: auto;
+    border:2px solid#000;
+    position: relative;
+    margin-bottom: 20px;
+   
+}
+.india_flag{
+       height: 35%;
+    width:100%px;
+    background-color:#ff9933;
+   
+    top: 0;
+    margin: auto;
+}
+   
+   
+
+.iflag1{
+     height: 35%;
+    width:100%;
+    background-color:white;
+   position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iflag1 img{
+    height:160px;
+}
+.iflag1 img:hover{
+    transform:rotate(180deg);
+    transition:all linear 3s;
+}
+/*india flag end*/
+/*ameriaca flag start*/
+
+.america_main{
+  
+     width:800px;
+    height:480px;
+    background-color:aquamarine;
+    margin: auto;
+    border:4px solid#000;
+    position: relative;
+   
+}
+
+.america{
+    height: 60px;
+    background-color:red;
+    position: absolute;
+    
+}
+    
+    .america::after{
+        content: '';
+        top:20px;
+        height: 70px;
+        width:100%;
+        background-color:red;
+        position: absolute;
+    
+        
+    box-shadow: 0px 60px 0px 0px  white,
+                 0px 120px 0px 0px  red,
+                0px  180px 0px 0px  white,
+                 0px 240px 0px 0px  red,
+                0px  300px 0px 0px  white,
+                0px 360px 0px 0px  red,
+                0px 420px 0px 0px  white
+}
+
+.america1{
+    width:400px;
+    height: 300px;
+    background-color: darkblue;
+    margin-top:0px;
+}
